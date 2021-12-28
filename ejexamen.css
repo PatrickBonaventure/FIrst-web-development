@@ -20,7 +20,7 @@ margin-right: 80px;
 }
 
 #enlaces1{
-    background-color: salmon;
+    background-color: #E2494B;
     color: white;
     display: flex;
     flex: auto;
@@ -32,6 +32,7 @@ margin-left: 200px;
 margin-right: 20px;
 padding: 10px; 
 justify-content: space-around;  
+
  
 }
 
@@ -46,30 +47,53 @@ li{
 }
 
 
+
 #titulo2{
     font-style: oblique;
-    margin-left: 200px;
-    margin-right: 200px;
+    text-align: center;
 }
 
+#imagen1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+
+
 #titulo3{
-    margin-left: 500px;
-    margin-right: 500px;
+    display: flex;
+    justify-content: center;
     border-radius: 10px;
-    text-align: center;
-    background-color: salmon;
+    margin-top: 15px;
     color: white
     
     
 }
 
+#titulo3 h2{
+    padding: 10px;
+    background-color: #E2494B;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+}
+
 #texto1{
     display: flex;
+    justify-content: space-evenly;
+    padding:10px;
+    margin-top: -20px;
+}
+
+.parrafo{
+    padding: 20px;
 }
 
 .parrafo a{
     text-decoration: none;
-    color: red;
+    color: #E2494B;
 }
 
 #titulo4{
@@ -77,17 +101,25 @@ li{
     margin-right: 500px;
     border-radius: 10px;
     text-align: center;
-    background-color: salmon;
+    background-color: #E2494B;
     color: white;
 }
 
 #texto2{
     display: flex;
+    justify-content: space-around;
 }
 
 #texto2 a{
     text-decoration: none;
-    color: red;
+    color: #E2494B;
+}
+
+.foto{
+    
+    padding: 10px;
+    
+    
 }
 
 #titulo5{
@@ -95,35 +127,122 @@ li{
     margin-right: 500px;
     border-radius: 10px;
     text-align: center;
-    background-color: salmon;
+    background-color: #E2494B;
     color: white;
 }
 
 #fotografias{
     display: flex;
-    align-content: center;
+    justify-content: space-between;
+    margin: 10px;
 }
 
 #cos5{
     display: flex;
-    background-color: gray;
+    background-color: #E2E2E2;
 }
 
 .tituloblog{
-    color: silver;
+    color: black;
+    margin-left: 25px;
 }
 
 .parafoto{
 display: flex;
+margin-left: 20px;
+padding: 5px;
+
 
 }
 
 .para1{
     display: flex;
     flex-direction: column;
+    padding: 10px;
+}
+
+
+
+.blog{
+    margin-bottom: 30px;
+}
+
+.parafoto img{
+    padding: 4px;
+    border: 2px solid black;
+}
+
+#lista a{
+    text-decoration: none;
+    color: #E2494B;
+}
+
+#lista{
+    margin-left: -15px;
+}
+
+#parafo2{
+    margin-left: 25px;
 }
 
 footer{
-    background-color: slategray;
+    background-color: #E2E2E2;
     padding: 10px;
+    
 }
+
+#footp{
+display: flex;
+justify-content: space-between;
+}
+
+@media screen and (min-width: 320px) and (max-width:1023px){
+    #imagen1{
+        width: min-content;
+        height: min-content;
+        
+    }
+}
+
+    @media screen and (min-width: 320px) and (max-width:1023px){
+        #cabecera{
+            width: max-content;
+            height: max-content;
+        }
+    }
+        @media screen and (min-width: 320px) and (max-width:1023px){
+            #texto1{
+                width: fit-content;
+                display: flex;
+                flex-wrap: wrap;
+
+            }
+        }
+        @media screen and (min-width: 320px) and (max-width:1023px){
+            #texto2{
+                display: flex;
+                flex-wrap: wrap;
+
+            }
+        }
+            @media screen and (min-width: 320px) and (max-width:1023px){
+                #fotografias{
+                    display: flex;
+                    flex-wrap: wrap;
+                    
+    
+                }
+            }
+                @media screen and (min-width: 320px) and (max-width:1023px){
+                    #cos5{
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+                    }
+
+                    @media screen and (min-width: 320px) and (max-width:425px){
+                        #enlaces1{
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        }
